@@ -1,0 +1,42 @@
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #3498db;
+}
+
+.danger {
+  background-color: #e74c3c;
+}
+
+.card {
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+.modal {
+  background: white;
+  width: 300px;
+  padding: 20px;
+  margin: 120px auto;
+  border-radius: 8px;
+}
