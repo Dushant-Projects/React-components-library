@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "./Button";
 import Card from "./Card";
 import Modal from "./Modal";
+import VoiceAssistant from "./VoiceAssistant";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -18,13 +19,15 @@ function App() {
     <div style={{ padding: "20px" }}>
       <h1>My React Components Library</h1>
 
-      <Button 
-        text="Open Modal" 
+      <Button
+        text="Open Modal"
         type="primary"
         onClick={openModal}
       />
 
-      <Card 
+      <VoiceAssistant />
+
+      <Card
         title="Student Card"
         description="This card is coming from my reusable component."
       />

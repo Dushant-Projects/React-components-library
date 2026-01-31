@@ -1,5 +1,10 @@
 import React from "react";
 import "./styles.css";
+<Button 
+  text="🎤 Explain Project" 
+  type="primary" 
+  onClick={speakAboutProject} 
+/>
 
 function Button(props) {
   return (
